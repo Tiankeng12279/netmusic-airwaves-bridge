@@ -1,0 +1,52 @@
+plugins {
+	id "com.crystaelix.loom" version "1.17-SNAPSHOT"
+	id "eclipse"
+	id "idea"
+}
+
+version = "0.16.1+mc1.21.1"
+group = "com.netmusicairwaves"
+base.archivesName = "netmusic-airwaves"
+
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(21)
+	}
+	withSourcesJar()
+}
+
+tasks.withType(JavaCompile).configureEach {
+	options.encoding = "UTF-8"
+}
+
+loom {
+	silentMojangMappingsLicense()
+}
+
+repositories {
+	mavenCentral()
+	exclusiveContent {
+		forRepository {
+			maven { url = "https://maven.parchmentmc.net/" }
+		}
+		filter { includeGroup "org.parchmentmc.data" }
+	}
+	flatDir {
+		dirs "libs"
+	}
+}
+
+dependencies {
+	minecraft "com.mojang:minecraft:1.21.1"
+	mappings loom.layered {
+		officialMojangMappings()
+		parchment "org.parchmentmc.data:parchment-1.21.1:2024.11.17@zip"
+	}
+	neoForge "net.neoforged:neoforge:21.1.249"
+
+	compileOnly files("libs/airwaves-1.21.1-0.1.1-zh_cn.jar")
+	compileOnly files("libs/netmusic-1.5.2-neoforge+mc1.21.1-all.jar")
+	compileOnly files("libs/create-1.21.1-6.0.10-280-slim.jar")
+	compileOnly files("libs/ponder-neoforge-1.0.82+mc1.21.1.jar")
+	compileOnly files("libs/flywheel-neoforge-1.21.1-1.0.6-41.jar")
+}

@@ -1,0 +1,16 @@
+# Normalize line endings: LF in the repository, CRLF for Windows scripts
+* text=auto
+
+*.java text
+*.gradle text
+*.json text
+*.md text
+*.properties text
+*.toml text
+*.mcmeta text
+gradlew text eol=lf
+*.bat text eol=crlf
+
+*.jar binary
+*.png binary
+*.ogg binary

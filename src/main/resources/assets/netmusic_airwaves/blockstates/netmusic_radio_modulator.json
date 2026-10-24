@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=north,play_state=none": {
+      "model": "netmusic_airwaves:block/netmusic_radio_modulator"
+    },
+    "facing=north,play_state=idle": {
+      "model": "netmusic_airwaves:block/netmusic_radio_modulator_idle"
+    },
+    "facing=north,play_state=playing": {
+      "model": "netmusic_airwaves:block/netmusic_radio_modulator_playing"
+    },
+    "facing=north,play_state=paused": {
+      "model": "netmusic_airwaves:block/netmusic_radio_modulator_paused"
+    },
+    "facing=east,play_state=none": {
+      "model": "netmusic_airwaves:block/netmusic_radio_modulator",
+      "y": 90
+    },
+    "facing=east,play_state=idle": {
+      "model": "netmusic_airwaves:block/netmusic_radio_modulator_idle",
+      "y": 90
+    },
+    "facing=east,play_state=playing": {
+      "model": "netmusic_airwaves:block/netmusic_radio_modulator_playing",
+      "y": 90
+    },
+    "facing=east,play_state=paused": {
+      "model": "netmusic_airwaves:block/netmusic_radio_modulator_paused",
+      "y": 90
+    },
+    "facing=south,play_state=none": {
+      "model": "netmusic_airwaves:block/netmusic_radio_modulator",
+      "y": 180
+    },
+    "facing=south,play_state=idle": {
+      "model": "netmusic_airwaves:block/netmusic_radio_modulator_idle",
+      "y": 180
+    },
+    "facing=south,play_state=playing": {
+      "model": "netmusic_airwaves:block/netmusic_radio_modulator_playing",
+      "y": 180
+    },
+    "facing=south,play_state=paused": {
+      "model": "netmusic_airwaves:block/netmusic_radio_modulator_paused",
+      "y": 180
+    },
+    "facing=west,play_state=none": {
+      "model": "netmusic_airwaves:block/netmusic_radio_modulator",
+      "y": 270
+    },
+    "facing=west,play_state=idle": {
+      "model": "netmusic_airwaves:block/netmusic_radio_modulator_idle",
+      "y": 270
+    },
+    "facing=west,play_state=playing": {
+      "model": "netmusic_airwaves:block/netmusic_radio_modulator_playing",
+      "y": 270
+    },
+    "facing=west,play_state=paused": {
+      "model": "netmusic_airwaves:block/netmusic_radio_modulator_paused",
+      "y": 270
+    }
+  }
+}

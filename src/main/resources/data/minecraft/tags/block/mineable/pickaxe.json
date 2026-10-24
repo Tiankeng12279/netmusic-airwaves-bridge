@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "netmusic_airwaves:netmusic_radio_modulator",
+    "netmusic_airwaves:netmusic_spectrum_monitor"
+  ]
+}

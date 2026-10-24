@@ -1,0 +1,47 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="netmusic_airwaves"
+version="0.16.1"
+displayName="NetMusic Airwaves Bridge"
+authors="NetMusic Airwaves Bridge"
+description='''NetMusic CD decks, GUIs and a spectrum deck for Create: Airwaves.
+
+The radio deck is GUI-less: right-click loads a CD, an empty-hand click ejects it, and redstone toggles playback through a cabled Airwaves transmitter. Playback order is switchable between sequential, shuffle (random other disc) and single-disc loop. Both decks support shift-eject (carousel) mode: the first slot becomes the input, the last the output, middle slots are locked to automation, and when a disc finishes the queue shifts toward the output - pair it with hoppers to play unlimited discs; shuffle instead plays random middle discs, moving finished ones straight to the output. The playlist player adds an analyzer-style GUI with 16 CD slots, transport controls, lyrics, and a live 20 Hz - 8 kHz spectrum panel. Decks can also act as Create display link sources.'''
+
+[[dependencies.netmusic_airwaves]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.netmusic_airwaves]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.netmusic_airwaves]]
+modId="netmusic"
+type="required"
+versionRange="[1.5.2,1.6.0)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.netmusic_airwaves]]
+modId="airwaves"
+type="required"
+versionRange="[0.1.0,0.2.0)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.netmusic_airwaves]]
+modId="create"
+type="required"
+versionRange="[6.0.10,6.1.0)"
+ordering="AFTER"
+side="BOTH"

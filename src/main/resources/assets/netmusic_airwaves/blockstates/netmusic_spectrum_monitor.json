@@ -1,0 +1,304 @@
+{
+  "variants": {
+    "facing=north,fill=empty,play_state=none": {
+      "model": "netmusic_airwaves:block/music_player/closed_0"
+    },
+    "facing=north,fill=empty,play_state=idle": {
+      "model": "netmusic_airwaves:block/music_player/idle_0"
+    },
+    "facing=north,fill=empty,play_state=playing": {
+      "model": "netmusic_airwaves:block/music_player/playing_0"
+    },
+    "facing=north,fill=empty,play_state=paused": {
+      "model": "netmusic_airwaves:block/music_player/idle_0"
+    },
+    "facing=north,fill=quarter,play_state=none": {
+      "model": "netmusic_airwaves:block/music_player/closed_1"
+    },
+    "facing=north,fill=quarter,play_state=idle": {
+      "model": "netmusic_airwaves:block/music_player/idle_1"
+    },
+    "facing=north,fill=quarter,play_state=playing": {
+      "model": "netmusic_airwaves:block/music_player/playing_1"
+    },
+    "facing=north,fill=quarter,play_state=paused": {
+      "model": "netmusic_airwaves:block/music_player/idle_1"
+    },
+    "facing=north,fill=half,play_state=none": {
+      "model": "netmusic_airwaves:block/music_player/closed_3"
+    },
+    "facing=north,fill=half,play_state=idle": {
+      "model": "netmusic_airwaves:block/music_player/idle_3"
+    },
+    "facing=north,fill=half,play_state=playing": {
+      "model": "netmusic_airwaves:block/music_player/playing_3"
+    },
+    "facing=north,fill=half,play_state=paused": {
+      "model": "netmusic_airwaves:block/music_player/idle_3"
+    },
+    "facing=north,fill=three_quarters,play_state=none": {
+      "model": "netmusic_airwaves:block/music_player/closed_5"
+    },
+    "facing=north,fill=three_quarters,play_state=idle": {
+      "model": "netmusic_airwaves:block/music_player/idle_5"
+    },
+    "facing=north,fill=three_quarters,play_state=playing": {
+      "model": "netmusic_airwaves:block/music_player/playing_5"
+    },
+    "facing=north,fill=three_quarters,play_state=paused": {
+      "model": "netmusic_airwaves:block/music_player/idle_5"
+    },
+    "facing=north,fill=full,play_state=none": {
+      "model": "netmusic_airwaves:block/music_player/closed_5"
+    },
+    "facing=north,fill=full,play_state=idle": {
+      "model": "netmusic_airwaves:block/music_player/idle_5"
+    },
+    "facing=north,fill=full,play_state=playing": {
+      "model": "netmusic_airwaves:block/music_player/playing_5"
+    },
+    "facing=north,fill=full,play_state=paused": {
+      "model": "netmusic_airwaves:block/music_player/idle_5"
+    },
+    "facing=east,fill=empty,play_state=none": {
+      "model": "netmusic_airwaves:block/music_player/closed_0",
+      "y": 90
+    },
+    "facing=east,fill=empty,play_state=idle": {
+      "model": "netmusic_airwaves:block/music_player/idle_0",
+      "y": 90
+    },
+    "facing=east,fill=empty,play_state=playing": {
+      "model": "netmusic_airwaves:block/music_player/playing_0",
+      "y": 90
+    },
+    "facing=east,fill=empty,play_state=paused": {
+      "model": "netmusic_airwaves:block/music_player/idle_0",
+      "y": 90
+    },
+    "facing=east,fill=quarter,play_state=none": {
+      "model": "netmusic_airwaves:block/music_player/closed_1",
+      "y": 90
+    },
+    "facing=east,fill=quarter,play_state=idle": {
+      "model": "netmusic_airwaves:block/music_player/idle_1",
+      "y": 90
+    },
+    "facing=east,fill=quarter,play_state=playing": {
+      "model": "netmusic_airwaves:block/music_player/playing_1",
+      "y": 90
+    },
+    "facing=east,fill=quarter,play_state=paused": {
+      "model": "netmusic_airwaves:block/music_player/idle_1",
+      "y": 90
+    },
+    "facing=east,fill=half,play_state=none": {
+      "model": "netmusic_airwaves:block/music_player/closed_3",
+      "y": 90
+    },
+    "facing=east,fill=half,play_state=idle": {
+      "model": "netmusic_airwaves:block/music_player/idle_3",
+      "y": 90
+    },
+    "facing=east,fill=half,play_state=playing": {
+      "model": "netmusic_airwaves:block/music_player/playing_3",
+      "y": 90
+    },
+    "facing=east,fill=half,play_state=paused": {
+      "model": "netmusic_airwaves:block/music_player/idle_3",
+      "y": 90
+    },
+    "facing=east,fill=three_quarters,play_state=none": {
+      "model": "netmusic_airwaves:block/music_player/closed_5",
+      "y": 90
+    },
+    "facing=east,fill=three_quarters,play_state=idle": {
+      "model": "netmusic_airwaves:block/music_player/idle_5",
+      "y": 90
+    },
+    "facing=east,fill=three_quarters,play_state=playing": {
+      "model": "netmusic_airwaves:block/music_player/playing_5",
+      "y": 90
+    },
+    "facing=east,fill=three_quarters,play_state=paused": {
+      "model": "netmusic_airwaves:block/music_player/idle_5",
+      "y": 90
+    },
+    "facing=east,fill=full,play_state=none": {
+      "model": "netmusic_airwaves:block/music_player/closed_5",
+      "y": 90
+    },
+    "facing=east,fill=full,play_state=idle": {
+      "model": "netmusic_airwaves:block/music_player/idle_5",
+      "y": 90
+    },
+    "facing=east,fill=full,play_state=playing": {
+      "model": "netmusic_airwaves:block/music_player/playing_5",
+      "y": 90
+    },
+    "facing=east,fill=full,play_state=paused": {
+      "model": "netmusic_airwaves:block/music_player/idle_5",
+      "y": 90
+    },
+    "facing=south,fill=empty,play_state=none": {
+      "model": "netmusic_airwaves:block/music_player/closed_0",
+      "y": 180
+    },
+    "facing=south,fill=empty,play_state=idle": {
+      "model": "netmusic_airwaves:block/music_player/idle_0",
+      "y": 180
+    },
+    "facing=south,fill=empty,play_state=playing": {
+      "model": "netmusic_airwaves:block/music_player/playing_0",
+      "y": 180
+    },
+    "facing=south,fill=empty,play_state=paused": {
+      "model": "netmusic_airwaves:block/music_player/idle_0",
+      "y": 180
+    },
+    "facing=south,fill=quarter,play_state=none": {
+      "model": "netmusic_airwaves:block/music_player/closed_1",
+      "y": 180
+    },
+    "facing=south,fill=quarter,play_state=idle": {
+      "model": "netmusic_airwaves:block/music_player/idle_1",
+      "y": 180
+    },
+    "facing=south,fill=quarter,play_state=playing": {
+      "model": "netmusic_airwaves:block/music_player/playing_1",
+      "y": 180
+    },
+    "facing=south,fill=quarter,play_state=paused": {
+      "model": "netmusic_airwaves:block/music_player/idle_1",
+      "y": 180
+    },
+    "facing=south,fill=half,play_state=none": {
+      "model": "netmusic_airwaves:block/music_player/closed_3",
+      "y": 180
+    },
+    "facing=south,fill=half,play_state=idle": {
+      "model": "netmusic_airwaves:block/music_player/idle_3",
+      "y": 180
+    },
+    "facing=south,fill=half,play_state=playing": {
+      "model": "netmusic_airwaves:block/music_player/playing_3",
+      "y": 180
+    },
+    "facing=south,fill=half,play_state=paused": {
+      "model": "netmusic_airwaves:block/music_player/idle_3",
+      "y": 180
+    },
+    "facing=south,fill=three_quarters,play_state=none": {
+      "model": "netmusic_airwaves:block/music_player/closed_5",
+      "y": 180
+    },
+    "facing=south,fill=three_quarters,play_state=idle": {
+      "model": "netmusic_airwaves:block/music_player/idle_5",
+      "y": 180
+    },
+    "facing=south,fill=three_quarters,play_state=playing": {
+      "model": "netmusic_airwaves:block/music_player/playing_5",
+      "y": 180
+    },
+    "facing=south,fill=three_quarters,play_state=paused": {
+      "model": "netmusic_airwaves:block/music_player/idle_5",
+      "y": 180
+    },
+    "facing=south,fill=full,play_state=none": {
+      "model": "netmusic_airwaves:block/music_player/closed_5",
+      "y": 180
+    },
+    "facing=south,fill=full,play_state=idle": {
+      "model": "netmusic_airwaves:block/music_player/idle_5",
+      "y": 180
+    },
+    "facing=south,fill=full,play_state=playing": {
+      "model": "netmusic_airwaves:block/music_player/playing_5",
+      "y": 180
+    },
+    "facing=south,fill=full,play_state=paused": {
+      "model": "netmusic_airwaves:block/music_player/idle_5",
+      "y": 180
+    },
+    "facing=west,fill=empty,play_state=none": {
+      "model": "netmusic_airwaves:block/music_player/closed_0",
+      "y": 270
+    },
+    "facing=west,fill=empty,play_state=idle": {
+      "model": "netmusic_airwaves:block/music_player/idle_0",
+      "y": 270
+    },
+    "facing=west,fill=empty,play_state=playing": {
+      "model": "netmusic_airwaves:block/music_player/playing_0",
+      "y": 270
+    },
+    "facing=west,fill=empty,play_state=paused": {
+      "model": "netmusic_airwaves:block/music_player/idle_0",
+      "y": 270
+    },
+    "facing=west,fill=quarter,play_state=none": {
+      "model": "netmusic_airwaves:block/music_player/closed_1",
+      "y": 270
+    },
+    "facing=west,fill=quarter,play_state=idle": {
+      "model": "netmusic_airwaves:block/music_player/idle_1",
+      "y": 270
+    },
+    "facing=west,fill=quarter,play_state=playing": {
+      "model": "netmusic_airwaves:block/music_player/playing_1",
+      "y": 270
+    },
+    "facing=west,fill=quarter,play_state=paused": {
+      "model": "netmusic_airwaves:block/music_player/idle_1",
+      "y": 270
+    },
+    "facing=west,fill=half,play_state=none": {
+      "model": "netmusic_airwaves:block/music_player/closed_3",
+      "y": 270
+    },
+    "facing=west,fill=half,play_state=idle": {
+      "model": "netmusic_airwaves:block/music_player/idle_3",
+      "y": 270
+    },
+    "facing=west,fill=half,play_state=playing": {
+      "model": "netmusic_airwaves:block/music_player/playing_3",
+      "y": 270
+    },
+    "facing=west,fill=half,play_state=paused": {
+      "model": "netmusic_airwaves:block/music_player/idle_3",
+      "y": 270
+    },
+    "facing=west,fill=three_quarters,play_state=none": {
+      "model": "netmusic_airwaves:block/music_player/closed_5",
+      "y": 270
+    },
+    "facing=west,fill=three_quarters,play_state=idle": {
+      "model": "netmusic_airwaves:block/music_player/idle_5",
+      "y": 270
+    },
+    "facing=west,fill=three_quarters,play_state=playing": {
+      "model": "netmusic_airwaves:block/music_player/playing_5",
+      "y": 270
+    },
+    "facing=west,fill=three_quarters,play_state=paused": {
+      "model": "netmusic_airwaves:block/music_player/idle_5",
+      "y": 270
+    },
+    "facing=west,fill=full,play_state=none": {
+      "model": "netmusic_airwaves:block/music_player/closed_5",
+      "y": 270
+    },
+    "facing=west,fill=full,play_state=idle": {
+      "model": "netmusic_airwaves:block/music_player/idle_5",
+      "y": 270
+    },
+    "facing=west,fill=full,play_state=playing": {
+      "model": "netmusic_airwaves:block/music_player/playing_5",
+      "y": 270
+    },
+    "facing=west,fill=full,play_state=paused": {
+      "model": "netmusic_airwaves:block/music_player/idle_5",
+      "y": 270
+    }
+  }
+}

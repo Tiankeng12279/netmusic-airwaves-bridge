@@ -1,0 +1,29 @@
+# Gradle / build output
+build/
+.gradle/
+out/
+run/
+*.log
+
+# Third-party dependency jars (place your own copies in libs/ to compile, see README)
+libs/*.jar
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local env
+*.env
+local.properties
